@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #89CFF0;
+}
+
+header{
+    background: white;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.inicio{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inicio-text{
+    max-width: 500px;
+}
+
+.inicio-text h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.inicio-text button{
+    padding: 10px 20px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.inicio-text button:hover{
+    box-shadow: 0px 0px 8px #1a1919ec;
+    transform: scale(1.05);
+}
+
+.destaques, .novidades{
+    padding: 40px 60px;
+}
+
+.destaques h2, .novidades h2{
+    margin-bottom: 20px;
+}
+
+.destaques-livros, .novidades-livros{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.card-destaque, .nov-livros{
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card-destaque img, .nov-livros img{
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.card-destaque h2, .nov-livros h2{
+    font-size: 24px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.avaliacao{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.avaliacao i{
+    color: #d78036;
+}
+.footer{
+    background: white;
+    padding: 30px 60px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 60px;
+}
